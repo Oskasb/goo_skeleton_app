@@ -2,7 +2,8 @@
 
 
 define([
-	"app/camera/TerrainCamera"
+	"app/camera/TerrainCamera",
+	"data_pipeline/ConfigCache"
 ],
 	function(
 		TerrainCamera

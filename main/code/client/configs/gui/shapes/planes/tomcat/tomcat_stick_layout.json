@@ -1,0 +1,45 @@
+[{
+    "shapes": {
+
+
+        "elevator_control":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": -15,
+                    "left": 35
+                },
+                "shape": "shape_control_slider_vertical",
+                "background": "background_xy_control_passive"
+            },
+            "on_hover":"xy_vector_control_hover",
+            "on_active":"xy_vector_control_active"
+        },
+        "aeilrons_control":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 35,
+                    "left": -15
+                },
+                "shape": "shape_control_slider_horizontal",
+                "background": "background_xy_control_passive"
+            },
+            "on_hover":"xy_vector_control_hover",
+            "on_active":"xy_vector_control_active"
+        },
+        "rudder_control":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 80,
+                    "left": -15
+                },
+                "shape": "shape_control_slider_horizontal",
+                "background": "background_xy_control_passive"
+            },
+            "on_hover":"xy_vector_control_hover",
+            "on_active":"xy_vector_control_active"
+        }
+    }
+}]

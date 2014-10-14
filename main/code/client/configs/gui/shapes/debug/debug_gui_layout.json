@@ -1,0 +1,58 @@
+[{
+    "shapes": {
+
+            "debug_control_state_button": {
+                "passive":{
+                    "pos": {
+                        "unit": "px",
+                        "top": -30,
+                        "left": -80
+                    },
+                    "shape":"shape_panel_input_box",
+                    "border": "border_control_slider_passive",
+                    "background": "background_control_slider_passive"
+                },
+                "on_hover":"shape_panel_activation_button_hover",
+                "on_active":"shape_panel_activation_button_active"
+            },
+            "debug_aerodynamics_graphs_button": {
+                "passive":{
+                    "pos": {
+                        "unit": "px",
+                        "top": -30,
+                        "left": -160
+                    },
+                    "shape":"shape_panel_input_box",
+                    "border": "border_control_slider_passive",
+                    "background": "background_control_slider_passive"
+                },
+                "on_hover":"shape_panel_activation_button_hover",
+                "on_active":"shape_panel_activation_button_active"
+            },
+        "curves_debug_graphs_panel_open":{
+            "passive":{
+                "pos":{
+                    "unit":"%",
+                    "top":20,
+                    "left":15
+                },
+                "shape":{
+                    "unit":"%",
+                    "width":70,
+                    "height":50
+                },
+                "border": {
+                    "unit":"px",
+                    "color":  "color_slider_border_hover",
+                    "line_width":1
+                },
+                "draw_callback":{
+                    "source":"aerodynamic_curves",
+                    "line_width": 3,
+                    "top_value": 1,
+                    "color": [1, 0.2, 0.5,1]
+                }
+            }
+        }
+    }
+}]

@@ -1,0 +1,44 @@
+[{
+    "template":{
+        "debug_buttons":{
+            "layers": [{
+
+                "shape":"anchor_bottom_right",
+                "layers": [{
+                    "shape":"debug_control_state_button",
+                    "id":"debug_mechanics_button",
+                    "on_apply":[
+                        {"call":"player_control_event", "params":{"control":"debug_mechanics", "value":1, "enabler":"debug_mechanics_button_light"}}
+                    ],
+                    "layers": [{
+                        "id":"debug_mechanics_button_light",
+                        "text":{"key":"debug_mechanics"},
+                        "shape":"lights_control_button_state_light"
+                    }]
+                }, {
+                    "shape":"debug_aerodynamics_graphs_button",
+                    "id":"aerodynamic_curves_button",
+                    "on_apply":[
+                        {"call":"gui_toggle_template", "params":{"template":"aerodynamics_graph", "enabler":"aerodynamic_curves_button_light"}}
+                    ],
+
+                    "layers": [{
+                        "id":"aerodynamic_curves_button_light",
+                        "text":{"key":"aerodynamic_curves"},
+                        "shape":"lights_control_button_state_light"
+                    }]
+                }]
+            }]
+        },
+        "aerodynamics_graph":{
+            "hidden":true,
+            "layers": [{
+                "shape":"canvas_parent",
+                "layers": [{
+                    "shape":"curves_debug_graphs_panel_open",
+                    "id":"debug_mechanics_graph_panel"
+                }]
+            }]
+        }
+    }
+}]

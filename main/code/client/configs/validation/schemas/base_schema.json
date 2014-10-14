@@ -1,0 +1,104 @@
+[{
+	"schemas":{
+        "particle_effects":{
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "type": "object",
+            "properties":{
+                "particle_effects":{
+                    "type":"array",
+                    "items":{
+                        "type":"object",
+                        "properties":{
+                            "id":{
+                                "type":"string"
+                            },
+                            "texture":{
+                                "type":"string"
+                            }
+                        }
+                    }
+                }
+            },
+            "required": ["particle_effects"]
+        },
+		"piece_data":{
+			"$schema": "http://json-schema.org/draft-04/schema#",
+			"definitions":{
+				"control_systems":{
+					"type":"object",
+					"items":{
+						"title":"Control System Configuration",
+						"type":"object",
+						"properties":{
+							"control":{
+								"type":"string"
+							},
+							"range":{
+								"type":"object",
+								"properties":{
+									"min":"number",
+									"max":"number"
+								},
+								"required":["min", "max"]
+							}
+						},
+						"required": ["control", "range"]
+					}
+
+				},
+				"plane":{
+					"type":"object",
+					"properties":{
+						"wing_shapes":{
+							"type":"array",
+							"items":{
+								"title":"Wing Configuration",
+								"type":"object",
+								"properties":{
+									"id":{
+										"type":"string"
+									},
+									"pos":{
+										"type":"array"
+									},
+									"size":{
+										"type":"array"
+									},
+									"rot":{
+										"type":"array"
+									},
+									"stallAngle":{
+										"type":"array"
+									},
+									"liftCurve":{
+										"type":"string"
+									},
+									"stallLiftCoeff":{
+										"type":"array"
+									},
+									"formDragCoeff":{
+										"type":"string"
+									}
+								},
+								"required": ["pos", "size", "rot", "stallAngle", "liftCurve", "stallLiftCoeff", "formDragCoeff"]
+							}
+						}
+					}
+				}
+			},
+			"title": "Game Piece Data",
+			"description": "JSON Data for Game Pieces",
+			"type": "object",
+			"properties":{
+				"piece_data":{
+					"type":"object",
+					"properties":{
+						"tomcat_data": { "$ref": "#/definitions/plane" },
+						"tomcat_control_systems":{ "$ref": "#/definitions/control_systems" }
+					}
+				}
+			},
+			"required": ["piece_data"]
+		}
+	}
+}]

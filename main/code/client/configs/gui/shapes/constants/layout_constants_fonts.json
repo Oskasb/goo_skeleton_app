@@ -1,0 +1,11 @@
+[{
+
+    "layout_constants": {
+        "font_game_messages":"Russo One",
+        "font_game_buttons":"Russo One",
+        "font_game_labels":"Russo One",
+        "font_game_system":"Arial",
+        "font_dev_messages":"Verdana",
+        "font_dev_alerts":"Berlin Sans Demi"
+    }
+}]

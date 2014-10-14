@@ -1,0 +1,145 @@
+[{
+    "shapes": {
+        "bottom_left_container": {
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 80,
+                    "left": 4
+                },
+                "shape": "shape_container_corner_box"
+            }
+        },
+
+        "vector_input_control_container": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -260,
+                    "left": -310
+                },
+                "shape": "square_fixed_container_box",
+                "border": "border_control_slider_passive"
+            }
+        },
+        "brakes_control":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 30,
+                    "left": 50
+                },
+                "shape": "shape_control_slider_small",
+                "border": "border_control_slider_passive",
+                "background": "background_control_slider_passive"
+            },
+            "on_hover":"control_slider_hover",
+            "on_active":"control_slider_active"
+        },
+        "flaps_control":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 30,
+                    "left": 65
+                },
+                "shape": "shape_control_slider_small",
+                "border": "border_control_slider_passive",
+                "background": "background_control_slider_passive"
+            },
+            "on_hover":"control_slider_hover",
+            "on_active":"control_slider_active"
+        },
+        "control_slider_label_horizontal": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": 0,
+                    "left": 0
+                },
+                "shape":"shape_horizontal_slider_label",
+                "text": "text_control_weak_label"
+            }
+        },
+
+        "instrument_mode_label": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -6,
+                    "left": 0
+                },
+                "shape":"shape_vertical_slider_label",
+                "text": {
+                    "unit":"%",
+                    "text_align":"start",
+                    "font_size":14,
+                    "top":25,
+                    "left":-70,
+                    "font_family":"font_game_buttons",
+                    "color": "color_button_label_base"
+                }
+            }
+        },
+
+        "instrument_slider_label": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -6,
+                    "left": 0
+                },
+                "shape":"shape_vertical_slider_label",
+                "text": {
+                    "unit":"%",
+                    "text_align":"center",
+                    "font_size":16,
+                    "top":25,
+                    "left":0,
+                    "font_family":"font_game_buttons",
+                    "color": "color_button_label_base"
+                }
+            }
+        },
+        "control_slider_label": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -3,
+                    "left": 0
+                },
+                "shape":"shape_vertical_slider_label",
+                "text": "text_control_weak_label"
+            }
+        },
+
+        "throttle_control": {
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 8,
+                    "left": 80
+                },
+                "shape":"shape_control_slider_thr",
+                "border": "border_control_slider_passive",
+                "background": "background_control_slider_passive"
+            },
+            "on_hover":"control_slider_hover",
+            "on_active":"control_slider_active"
+        },
+        "control_button_background": {
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 0,
+                    "left": 0
+                },
+                "shape":"shape_control_button_label",
+                "text": "text_control_button_label",
+                "background":"background_control_button_passive"
+            },
+            "on_hover":"control_button_background_hover",
+            "on_active":"control_button_screen_active"
+        }
+    }
+}]

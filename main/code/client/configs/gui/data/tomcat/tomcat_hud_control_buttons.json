@@ -1,0 +1,75 @@
+[{
+    "template":{
+        "tomcat_hud_buttons":{
+            "layers": [{
+
+                "shape":"anchor_mid_right",
+                "layers": [{
+                    "shape":"lights_control_panel_button",
+                    "id":"lights_control_panel_button",
+                    "on_apply":[{"call":"gui_toggle_template", "params":{"template":"tomcat_lights_controls", "enabler":"lights_control_button_state_light"}}],
+                    "layers": [{
+                        "id":"lights_control_button_state_light",
+                        "text":{"key":"lights_button_label"},
+                        "shape":"lights_control_button_state_light"
+                    }]
+                }]
+            },{
+
+                "shape":"anchor_mid_right",
+                "layers": [{
+                    "shape":"cockpit_control_panel_button",
+                    "id":"cockpit_control_panel_button",
+                    "on_apply":[{"call":"gui_toggle_template", "params":{"template":"tomcat_cockpit_controls", "enabler":"cockpit_control_button_state_light"}}],
+                    "layers": [{
+                        "id":"cockpit_control_button_state_light",
+                        "text":{"key":"cockpit_button_label"},
+                        "shape":"lights_control_button_state_light"
+                    }]
+                }]
+            },{
+
+                "shape":"anchor_bottom_right",
+                "layers": [{
+                    "shape":"lights_control_panel_button",
+                    "id":"wing_smoke_button",
+                    "on_apply":[{"call":"player_control_event", "params":{"control":"wing_smoke", "value":1, "enabler":"wing_smoke_button_light"}}],
+                    "layers": [{
+                        "id":"wing_smoke_button_light",
+                        "text":{"key":"wing_smoke"},
+                        "shape":"lights_control_button_state_light"
+                    }]
+                }]
+            },{
+
+                "shape":"anchor_bottom_left",
+                "layers": [{
+                    "shape":"button_canopy_position",
+                    "layers": [
+                        {
+                            "id":"canopy_hud_button",
+                            "text":{"key":"button_canopy"},
+                            "on_apply":[{"call":"player_control_event", "params":{"control":"canopy", "value":1}}],
+                            "shape":"control_button_background"
+                        }
+                    ]
+
+                },{
+
+                    "shape":"button_gear_position",
+                    "layers": [
+                        {
+                            "id":"gear_hud_button",
+                            "text":{"key":"button_gear"},
+                            "on_apply":[{"call":"player_control_event", "params":{"control":"gears", "value":1}}],
+                            "shape":"control_button_background"
+                        }
+                    ]
+
+
+                }]
+
+            }]
+        }
+    }
+}]

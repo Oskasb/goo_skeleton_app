@@ -1,0 +1,148 @@
+[{
+	"piece_data":{
+        "tomcat_control_systems":{
+            "control_systems":[
+                {
+                    "control":"formation_lights",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"formation_mode",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"position_lights",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"position_mode",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"collision_lights",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"collision_mode",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"taxi_lights",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"taxi_mode",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+
+                {
+                    "control":"cockpit_lights",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"cockpit_mode",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+
+
+                {
+                    "control":"screen_intensity",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"hud_intensity",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+
+                {
+                    "control":"hdd_intensity",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"elevator",
+                    "range":{
+                        "min":-1,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"throttle",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"flaps",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                },
+                {
+                    "control":"breaks",
+                    "range":{
+                        "min":0,
+                        "max":1
+                    }
+
+                }
+            ]
+		}
+	}
+}]

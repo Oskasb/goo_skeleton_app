@@ -1,0 +1,168 @@
+[{
+    "shapes": {
+        "lights_cockpit_mode_select_container":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": -55,
+                    "left": -30
+                },
+                "shape": {
+                    "unit": "%",
+                    "width": 160,
+                    "height": 22
+                }
+            }
+        },
+        "lights_cockpit_pos_lights_container":{
+            "passive":{
+            "pos": {
+                "unit": "%",
+                "top": 55,
+                "left": 81
+            },
+            "shape": "shape_light_intensity_box"
+            }
+        },
+        "lights_cockpit_form_lights_container":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 55,
+                    "left": 57
+                },
+                "shape": "shape_light_intensity_box"
+            }
+        },
+        "lights_cockpit_coll_lights_container":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 55,
+                    "left": 33
+                },
+                "shape": "shape_light_intensity_box"
+            }
+        },
+        "lights_cockpit_taxi_lights_container":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 55,
+                    "left": 9
+                },
+                "shape": "shape_light_intensity_box"
+            }
+        },
+        "lights_cockpit_control_container":{
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 0,
+                    "left": 0
+                },
+                "shape": "shape_full_size_box",
+                "border": {
+                    "unit":"px",
+                    "color":  "color_menu_border_hover",
+                    "line_width":4
+                },
+                "background": {
+                    "color":"color_dark_cover"
+                }
+            },
+            "on_hover":"shape_panel_input_box_hover",
+            "on_active":"shape_panel_input_box_active"
+        },
+        "cockpit_control_panel_button": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -50,
+                    "left": -100
+                },
+                "shape":"shape_panel_input_box",
+                "border": "border_control_slider_passive",
+                "background": "background_control_slider_passive"
+            },
+            "on_hover":"shape_panel_activation_button_hover",
+            "on_active":"shape_panel_activation_button_active"
+        },
+        "lights_control_panel_button": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -80,
+                    "left": -100
+                },
+                "shape":"shape_panel_input_box",
+                "border": "border_control_slider_passive",
+                "background": "background_control_slider_passive"
+            },
+            "on_hover":"shape_panel_activation_button_hover",
+            "on_active":"shape_panel_activation_button_active"
+        },
+        "lights_control_button_state_light": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": 0,
+                    "left": 0
+                },
+                "shape":{
+                    "unit": "%",
+                    "width": 100,
+                    "height": 100
+                },
+                "text": "text_control_subtle_label",
+                "background": "background_control_slider_passive"
+            },
+            "on_applied":"shape_control_button_state_light_applied"
+        },
+
+        "cockpit_control_panel_open":{
+            "passive":{
+                "pos":{
+                    "unit":"px",
+                    "top":-120,
+                    "left":-370
+                },
+                "shape":{
+                    "unit":"px",
+                    "width":360,
+                    "height":200
+                },
+                "border": {
+                    "unit":"px",
+                    "color":  "color_slider_border_hover",
+                    "line_width":4
+                },
+                "background": {
+                    "color":  "color_slider_back_hover"
+                }
+            }
+        },
+        "lights_control_panel_open":{
+            "passive":{
+                "pos":{
+                    "unit":"px",
+                    "top":-268,
+                    "left":-370
+                },
+                "shape":{
+                    "unit":"px",
+                    "width":360,
+                    "height":200
+                },
+                "border": {
+                    "unit":"px",
+                    "color":  "color_slider_border_hover",
+                    "line_width":4
+                },
+                "background": {
+                    "color":  "color_slider_back_hover"
+                }
+            }
+        }
+    }
+}]

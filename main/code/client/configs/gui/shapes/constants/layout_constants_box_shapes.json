@@ -1,0 +1,29 @@
+[{
+    "layout_key_maps": {
+        "shape_anchor_point":{
+            "unit": "px",
+            "width": 0,
+            "height": 0
+        },
+        "shape_bottom_left_box": {
+            "unit": "px",
+            "width": 22,
+            "height": 120
+        },
+        "shape_container_corner_box": {
+            "unit": "%",
+            "width": 25,
+            "height": 18
+        },
+        "square_fixed_container_box": {
+            "unit": "px",
+            "width": 220,
+            "height": 220
+        },
+        "shape_light_intensity_box": {
+            "unit": "px",
+            "width": 40,
+            "height": 80
+        }
+    }
+}]

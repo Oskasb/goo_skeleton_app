@@ -1,0 +1,33 @@
+[{
+    "config_url_index":{
+        "files":[
+			"configs/validation/schemas/base_schema.json",
+
+            "configs/gamestates/main_states.json",
+
+            "configs/game/effects/particle_effects.json",
+            "configs/text/gui_text.json",
+
+            "configs/gui/shapes/constants/layout_key_maps.json",
+            "configs/gui/shapes/constants/slider_layout_key_maps.json",
+            "configs/gui/shapes/constants/button_layout_key_maps.json",
+            "configs/gui/shapes/constants/messages_key_maps.json",
+            "configs/gui/shapes/constants/layout_constants.json",
+            "configs/gui/shapes/constants/layout_color_constants.json",
+            "configs/gui/shapes/constants/layout_input_constants.json",
+            "configs/gui/shapes/constants/layout_constants_fonts.json",
+            "configs/gui/shapes/constants/layout_constants_menus.json",
+            "configs/gui/shapes/constants/layout_constants_labels.json",
+            "configs/gui/shapes/constants/layout_constants_box_shapes.json",
+            "configs/gui/shapes/constants/layout_constants_buttons.json",
+
+            "configs/gui_config.json",
+
+            "configs/gui/data/game/top_bar.json",
+            "configs/gui/data/game/messages.json",
+            "configs/gui/shapes/message_layout.json"
+
+
+        ]
+    }
+}]

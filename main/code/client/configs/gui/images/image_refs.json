@@ -1,0 +1,10 @@
+[
+    {
+        "svg":{
+            "control_button_passive":"./gui/images/svg/button/button_ctrl_passive.svg",
+            "control_button_hover":"./gui/images/svg/button/button_ctrl_hover.svg",
+            "control_button_active":"./gui/images/svg/button/button_ctrl_active.svg",
+            "test_button":"./gui/images/svg/button/testbutton.svg"
+        }
+    }
+]

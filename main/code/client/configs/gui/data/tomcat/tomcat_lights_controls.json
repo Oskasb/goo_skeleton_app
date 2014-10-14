@@ -1,0 +1,193 @@
+[{
+    "template":{
+        "tomcat_lights_controls":{
+            "hidden":true,
+            "layers": [{
+
+                "shape":"anchor_mid_right",
+                "zIndex":101,
+                "layers": [{
+
+                    "shape":"lights_control_panel_open",
+                    "layers": [{
+                        "shape":"color_sub_menu_panel"
+                    },{
+                        "shape":"lights_cockpit_pos_lights_container",
+                        "layers": [{
+                            "id":"pos_light_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"position_lights", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"position_lights",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"lights_position_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "zIndex":10,
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"pos_light_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"position_mode", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"position_mode",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+                    },{
+                        "shape":"lights_cockpit_form_lights_container",
+                        "layers": [{
+                            "id":"form_light_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"formation_lights", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"formation_lights",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"lights_formation_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"form_light_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"formation_mode", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"formation_mode",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+                    },{
+                        "shape":"lights_cockpit_coll_lights_container",
+                        "layers": [{
+                            "id":"coll_light_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"collision_lights", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"collision_lights",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"lights_collision_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"coll_light_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"collision_mode", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"collision_mode",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+                    },{
+                        "shape":"lights_cockpit_taxi_lights_container",
+                        "layers": [{
+                            "id":"taxi_light_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"taxi_lights", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"taxi_lights",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"lights_taxi_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"taxi_light_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"taxi_mode", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"taxi_mode",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+                    },{
+                        "shape":"anchor_top_left",
+                        "layers": [{
+                            "shape":"sub_menu_label",
+                            "text":{"key":"lights_button_label"}
+                        }]
+                    },{
+                        "zIndex":10,
+                        "shape":"anchor_top_right",
+                        "layers": [{
+                            "shape":"shape_menu_container_close_x",
+                            "layers": [{
+                                "shape":"color_sub_menu_panel"
+                            },{
+                                "zIndex":10,
+                                "shape":"shape_menu_button_close_x",
+                                "on_apply":[{"call":"gui_toggle_template", "params":{"template":"tomcat_lights_controls"}}],
+                                "text":{"key":"menu_button_close_x"}
+
+                            }]
+                        }]
+                    }]
+                }]
+            }]
+        }
+    }
+}]

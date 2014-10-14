@@ -1,0 +1,24 @@
+[{
+    "shapes": {
+        "button_gear_position": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -90,
+                    "left": 50
+                },
+                "shape": "shape_control_button_label"
+            }
+        },
+        "button_canopy_position": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -50,
+                    "left": 50
+                },
+                "shape": "shape_control_button_label"
+            }
+        }
+    }
+}]

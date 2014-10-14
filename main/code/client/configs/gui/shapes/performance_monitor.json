@@ -1,0 +1,95 @@
+[{
+    "shapes": {
+        "stats_tracker": {
+            "passive": {
+                "pos": {
+                    "unit": "px",
+                    "top": 2,
+                    "left": 4
+                },
+                "shape": {
+                    "unit": "px",
+                    "top": 0,
+                    "left": 0,
+                    "width": 55,
+                    "height": 30
+                },
+                "text":{
+                    "unit":"px",
+                    "source":{
+                        "key":"frame_tpf",
+                        "callback":"frame_tpf"
+                    },
+                    "text_align":"center",
+                    "font_size":18,
+                    "top":2,
+                    "left":2,
+                    "font_family":"font_game_labels",
+                    "color": [0.8, 0.2,1, 0.4]
+                }
+            },
+            "on_hover":{
+                "background":{
+                    "color":[0,0,0, 0]
+                },
+                "shape": {
+                    "width": 120,
+                    "height": 120
+                },
+                "text":{
+                    "top":18,
+                    "left":-40,
+                    "text_align":"left",
+                    "font_size":18,
+                    "line_spacing":4,
+                    "color":[0.0,0.6,0, 1],
+                    "source":{
+                        "callback":"more_stats"
+                    }
+                }
+            }
+
+        },
+        "tpf_graph": {
+            "passive": {
+                "pos": {
+                    "unit": "px",
+                    "top": 0,
+                    "left": 55
+                },
+                "shape": {
+                    "unit": "px",
+                    "width": 200,
+                    "height": 30
+                },
+                "draw_callback":{
+                    "source":"tpf_graph",
+                    "line_width": 0.5,
+                    "top_value": 16,
+                    "color": [1, 0.4, 0.7,1]
+                }
+            },
+
+            "on_hover":{
+                "pos": {
+                    "unit": "px",
+                    "top": 10,
+                    "left": 55
+                },
+                "draw_callback":{
+                    "source":"tpf_graph",
+                    "line_width": 2,
+                    "top_value": 15,
+                    "color": [1, 0.2, 0.5,1]
+                },
+                "border": "border_control_slider_passive",
+                "shape": {
+                    "unit":"%",
+                    "width": 450,
+                    "height": 210
+
+                }
+            }
+        }
+    }
+}]

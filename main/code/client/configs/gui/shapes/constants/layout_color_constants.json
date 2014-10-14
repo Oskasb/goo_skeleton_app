@@ -1,0 +1,69 @@
+[{
+
+    "layout_constants": {
+        "color_container_box":         [0.1, 0.5, 0.6, 0.2],
+
+
+
+        "color_black":                 [ 0, 0,0,1],
+        "color_white":                 [ 1, 1,1,1],
+
+        "color_menu_cover":            [0.1, 0.3,0.3,1],
+        "color_menu_cover_hover":      [0.2, 0.5,0.5,1],
+        "color_menu_cover_active":     [0.4, 0.6,0.6,1],
+
+        "color_dark_cover":            [0, 0.2,0.3,1],
+        "color_dark_cover_hover":      [0, 0.3,0.4,1],
+        "color_dark_cover_active":     [0.1, 0.3,0.5,1],
+
+        "color_slider_border_passive": [0.3, 0.6, 0.7, 0.5],
+        "color_slider_border_hover":   [0.3, 0.8, 0.9, 0.6],
+        "color_slider_border_active":  [0.6, 0.9, 0.9, 0.6],
+
+        "color_slider_back_passive":   [0, 0.3, 0.4, 0.3],
+        "color_slider_back_hover":     [0.1, 0.3, 0.5, 0.3],
+        "color_slider_back_active":    [0.5, 0.7, 0.7, 0.3],
+
+        "color_menu_border_passive":     [0.3, 0.7, 0.8, 1],
+        "color_menu_border_hover":   [0.4, 0.8, 0.9, 1],
+        "color_menu_border_active":  [0.5, 0.9,  1,  1],
+
+        "color_menu_label_weak":       [0.5,0.8,0.8,0.3],
+
+
+        "color_button_label_weak":     [0.4,1,1,0.2],
+        "color_button_label_subtle":   [0.6,1,1,0.4],
+        "color_button_label_base":     [0.4,0.9,0.9,0.8],
+        "color_button_label_hover":    [0.5,0.9,0.9,1],
+        "color_button_label_active":   [ 1, 1,1,1],
+
+        "color_cancel_label_weak":     [1, 0.4, 0.4,0.3],
+        "color_cancel_label_base":     [1 ,0.2,0.5, 1],
+        "color_cancel_label_hover":    [1, 0.4,0.7, 1],
+        "color_cancel_label_active":   [1, 0.6,0.9, 1],
+
+        "color_state_light_transit":   [0.8,0.5,0.1,0.6],
+        "color_state_light_applied":   [0.5,  0.7,  1,0.3],
+
+
+        "color_control_input_state":   [ 1, 0.8,0.3,1],
+        "color_control_active_state":  [ 0.4, 1, 0.8,0.7],
+
+
+        "color_xy_vector_input_state": [ 0.6, 0.9, 1.0, 1],
+        "color_xy_vector_active_state":[ 1, 0.6,  0.4, 0.5],
+
+        "color_xy_vector_back_passive":[0,   0.2, 0.3, 0.5],
+        "color_xy_vector_back_hover":  [0.0, 0.3, 0.3, 0.7],
+        "color_xy_vector_back_active": [0.2, 0.3, 0.3, 0.9],
+
+
+        "color_text_system_update":    [ 0, 0.8,0.2,1],
+        "color_text_system_restore":   [ 0.8, 0.8,0,1],
+        "color_text_system_warning":   [ 0.8, 0.2,0,1],
+
+        "color_text_game_hint":        [ 0, 0.1,1  ,1],
+        "color_text_game_alert":       [ 1, 0.3,0.3,1],
+        "color_text_game_system":      [ 0, 1,0.1,1]
+    }
+}]

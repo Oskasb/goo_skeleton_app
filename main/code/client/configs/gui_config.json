@@ -1,0 +1,55 @@
+[{
+
+    "setup": {
+         "page":{
+             "resolution":1024,
+             "blending":{
+                 "default":"color_add",
+                 "modes":{
+                     "color_add":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcColorFactor",
+                         "blendDst" : "SrcAlphaFactor"
+                     },
+                     "alpha_cover":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcAlphaFactor",
+                         "blendDst" : "OneMinusSrcColorFactor"
+                     },
+                     "color_cover":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcColorFactor",
+                         "blendDst" : "OneMinusSrcColorFactor"
+                     },
+                     "color_alpha":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcColorFactor",
+                         "blendDst" : "DstAlphaFactor"
+                     },
+                     "add_cover":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "OneFactor",
+                         "blendDst" : "OneMinusSrcColorFactor"
+                     },
+                     "add_alpha":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcAlphaFactor",
+                         "blendDst" : "OneFactor"
+                     },
+                     "add_color":{
+                         "blending" : "CustomBlending",
+                         "blendEquation" : "AddEquation",
+                         "blendSrc" : "SrcColorFactor",
+                         "blendDst" : "OneFactor"
+                     }
+                 }
+             }
+         }
+    }
+}]

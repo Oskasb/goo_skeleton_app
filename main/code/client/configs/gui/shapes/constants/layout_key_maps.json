@@ -1,0 +1,16 @@
+[{
+    "layout_key_maps": {
+        "shape_top_bar_box":{
+            "unit": "px",
+            "top": 0,
+            "left": 0,
+            "width": 285,
+            "height": 150
+        },
+        "border_container_corner_box": {
+            "unit":"px",
+            "color": "color_container_box",
+            "line_width":4
+        }
+    }
+}]

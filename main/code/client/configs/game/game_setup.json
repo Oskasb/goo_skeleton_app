@@ -1,0 +1,8 @@
+[{
+    "game_pieces":{
+        "tomcat_setup":{
+            "srcUrl":"configs/game/pieces/tomcat/",
+            "jsonFiles":["tomcat_system_controls", "tomcat_system_controls"]
+        }
+    }
+}]

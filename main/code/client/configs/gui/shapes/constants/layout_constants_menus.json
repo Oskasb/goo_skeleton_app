@@ -1,0 +1,24 @@
+[{
+    "layout_key_maps": {
+        "shape_sub_menu_panel":{
+            "pos":{
+                "unit":"px",
+                "top":0,
+                "left":0
+            },
+            "shape":{
+                "unit":"%",
+                "width":100,
+                "height":100
+            },
+            "border": {
+                "unit":"px",
+                "color":  "color_slider_border_hover",
+                "line_width":4
+            },
+            "background": {
+                "color":  "color_menu_cover"
+            }
+        }
+    }
+}]

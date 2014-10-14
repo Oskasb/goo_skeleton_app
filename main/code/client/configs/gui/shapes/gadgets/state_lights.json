@@ -1,0 +1,30 @@
+[{
+    "gadgets": {
+        "control_state_light":[{"source":"control_state_light"}]
+    },
+    "shapes": {
+        "control_state_light": {
+            "passive":{
+                "pos": {
+                    "unit": "%",
+                    "top": 90,
+                    "left": 50
+                },
+                "shape": {
+                    "unit": "%",
+                    "width": 45,
+                    "height": 80
+                },
+                "draw_callback":{
+                    "source":"from_params",
+                    "params":{
+                        "control":"from_params",
+                        "color": "color_control_input_state",
+                        "target":"width",
+                        "factor":1
+                    }
+                }
+            }
+        }
+    }
+}]

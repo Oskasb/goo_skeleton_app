@@ -2,23 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6d9dc7-7b24-4038-9650-b1b231b05379" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/BRLNSB.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/BRLNSDB.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/BRLNSR.TTF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/RussoOne-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/OFL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/css/fonts/iconset2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/GooSetup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/camera/FlyControlScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/lib/goo/goo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/config_urls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/effects/particle_effects.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/effects/posteffects.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/game_setup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/pieces/tomcat/tomcat_control_systems.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/pieces/tomcat/tomcat_wing_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/game/values/aerodynamics.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/debug/aerodynamics_graph.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/game/messages.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/game/top_bar.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/tomcat/tomcat_cockpit_controls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/tomcat/tomcat_controls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/tomcat/tomcat_hud_control_buttons.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/data/tomcat/tomcat_lights_controls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/image_refs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_active.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_passive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/testbutton.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/anchor_points.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/button_layout_key_maps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_color_constants.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants_box_shapes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants_buttons.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants_fonts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants_labels.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_constants_menus.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_input_constants.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/layout_key_maps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/messages_key_maps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/constants/slider_layout_key_maps.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/debug/debug_gui_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/flight_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/gadgets/control_slider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/gadgets/drag_controls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/gadgets/select_controls.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/gadgets/state_lights.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/menu_buttons_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/menu_shape_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/message_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/performance_monitor.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/planes/tomcat/tomcat_hud_buttons.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/planes/tomcat/tomcat_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/planes/tomcat/tomcat_lights_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/planes/tomcat/tomcat_stick_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/text_labels_layout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/gui_config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/text/gui_text.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/configs/validation/schemas/base_schema.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/app/Client.js" afterPath="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/app/GooSetup.js" afterPath="$PROJECT_DIR$/main/code/client/js/app/GooSetup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/main.js" afterPath="$PROJECT_DIR$/main/code/client/js/main.js" />
     </list>
     <ignored path="goo_skeleton_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,13 +113,13 @@
     <favorites_list name="goo_skeleton_app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4748027">
+    <splitter split-orientation="horizontal" split-proportion="0.47480273">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="12" selection-start="242" selection-end="242" vertical-scroll-proportion="0.20773931">
+                <state line="24" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-15.692307">
                   <folding />
                 </state>
               </provider>
@@ -99,7 +137,34 @@
           <file leaf-file-name="Client.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="12" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+                <state line="46" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CanvasGuiMain.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiMain.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="0" selection-start="554" selection-end="651" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameUiCallbacks.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/GameUiCallbacks.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="142" column="22" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.33286119">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InteractiveSurface.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/InteractiveSurface.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="143" column="105" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -112,16 +177,61 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="55" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+                <state line="9" column="3" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GooSetup.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="base_schema.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/validation/schemas/base_schema.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gui_config.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui_config.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config_urls.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/config_urls.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="17" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DrawCallbacks.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/DrawCallbacks.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="63" column="20" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.66997164">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="button_ctrl_passive.svg" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_passive.svg">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GooSetup.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/js/app/GooSetup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="51" selection-start="536" selection-end="536" vertical-scroll-proportion="0.4890873">
+                <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -154,24 +264,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TerrainCamera.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="76" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FlyControlScript.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/FlyControlScript.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="357" column="7" selection-start="11277" selection-end="11277" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -187,22 +279,23 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/code/client/js/main.js" />
         <option value="$PROJECT_DIR$/main/code/client/js/app/camera/FlyControlScript.js" />
         <option value="$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js" />
-        <option value="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
         <option value="$PROJECT_DIR$/main/code/client/base.css" />
         <option value="$PROJECT_DIR$/main/code/client/css/base.css" />
         <option value="$PROJECT_DIR$/main/code/client/index.html" />
         <option value="$PROJECT_DIR$/main/code/client/js/app/GooSetup.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/main.js" />
+        <option value="$PROJECT_DIR$/main/code/client/configs/config_urls.json" />
+        <option value="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="466" />
-    <option name="y" value="30" />
+    <option name="x" value="454" />
+    <option name="y" value="8" />
     <option name="width" value="2002" />
-    <option name="height" value="1193" />
+    <option name="height" value="1300" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -606,6 +699,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="submodules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas_gui_3d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -764,6 +899,292 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gamestates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pieces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -780,11 +1201,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs" />
+      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\submodules\data_pipeline" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\submodules\canvas_gui_3d" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\css" />
-      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\lib\goo" />
-      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\css" />
@@ -938,13 +1359,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="466" y="30" width="2002" height="1193" extended-state="0" />
+    <frame x="454" y="8" width="2002" height="1300" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -956,11 +1378,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23787409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23477812" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1020,28 +1441,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/FlyControlScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="7" selection-start="11277" selection-end="11277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="76" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/js/lib/goo/goo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/css/base.css">
@@ -1053,7 +1455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="242" selection-end="242" vertical-scroll-proportion="0.20773931">
+        <state line="24" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-15.692307">
           <folding />
         </state>
       </provider>
@@ -1072,14 +1474,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="55" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/js/app/GooSetup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="51" selection-start="536" selection-end="536" vertical-scroll-proportion="0.4890873">
+        <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/validation/schemas/base_schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_passive.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="554" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/config_urls.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="17" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/InteractiveSurface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="105" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/DrawCallbacks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="20" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.66997164">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/GameUiCallbacks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="22" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.33286119">
           <folding />
         </state>
       </provider>

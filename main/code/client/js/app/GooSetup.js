@@ -1,11 +1,6 @@
 "use strict"
 
-require.config({
-	paths: {
-		   goo: "../../../../../../../../projects/goojs/src/goo"
-		// goo: "./lib/goo"
-	}
-});
+
 
 define([
 	'goo/entities/GooRunner',

@@ -1,0 +1,210 @@
+[{
+    "template":{
+        "tomcat_cockpit_controls":{
+            "hidden":true,
+            "layers": [{
+
+                "shape":"anchor_mid_right",
+                "zIndex":155,
+                "layers": [{
+                    "id":"cockpit_config_panel",
+                    "shape":"cockpit_control_panel_open",
+                    "layers": [{
+                        "shape":"color_sub_menu_panel"
+                    },{
+                        "shape":"lights_cockpit_pos_lights_container",
+                        "layers": [{
+                            "id":"cockpit_light_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"cockpit_lights", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"cockpit_lights",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"cockpit_lights_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "zIndex":10,
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"cockpit_light_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"cockpit_mode", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"cockpit_mode",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+
+
+
+                        }]
+
+                    },{
+                        "shape":"lights_cockpit_form_lights_container",
+                        "layers": [{
+                            "id":"cockpit_screen_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"screen_intensity", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"screen_intensity",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"cockpit_screens_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "zIndex":10,
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"cockpit_screen_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"screen_intensity", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"screen_intensity",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+
+
+                    },{
+                        "shape":"lights_cockpit_coll_lights_container",
+                        "layers": [{
+                            "id":"cockpit_hud_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"hud_intensity", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"hud_intensity",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"cockpit_hud_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "zIndex":10,
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"cockpit_hud_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"hud_intensity", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"hud_intensity",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+
+
+
+                    },{
+                        "shape":"lights_cockpit_taxi_lights_container",
+                        "layers": [{
+                            "id":"cockpit_hdd_intensity_ctrl",
+                            "shape":"lights_cockpit_control_container",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"hdd_intensity", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_direct_slider",
+                                "params":{
+                                    "control":"hdd_intensity",
+                                    "factor":1,
+                                    "source":"player_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"cockpit_hdd_label"},
+                                "shape":"instrument_slider_label"
+                            }]
+                        },{
+                            "zIndex":10,
+                            "shape":"lights_cockpit_mode_select_container",
+                            "layers": [{
+                                "id":"cockpit_hdd_mode_ctrl",
+                                "shape":"lights_cockpit_control_container",
+                                "on_drag":[{"call":"player_control_event", "params":{"control":"hdd_intensity", "axis":0}}],
+                                "feedback_gadgets":[{
+                                    "gadget":"control_list_select",
+                                    "params":{
+                                        "control":"hdd_intensity",
+                                        "factor":-1,
+                                        "source":"player_control_update"
+                                    }
+                                }],
+                                "layers": [{
+                                    "text":{"key":"lights_mode_label"},
+                                    "shape":"instrument_mode_label"
+                                }]
+                            }]
+                        }]
+
+
+
+                    },{
+                        "shape":"anchor_top_left",
+                        "layers": [{
+                            "shape":"sub_menu_label",
+                            "text":{"key":"cockpit_button_label"}
+                        }]
+                    },{
+
+                        "zIndex":10,
+                        "shape":"anchor_top_right",
+                        "layers": [{
+                            "shape":"shape_menu_container_close_x",
+                            "layers": [{
+                                "shape":"color_sub_menu_panel"
+                            },{
+                                "zIndex":10,
+                                "id":"close_cockpit_ctrl",
+                                "shape":"shape_menu_button_close_x",
+                                "on_apply":[{"call":"gui_toggle_template", "params":{"template":"tomcat_cockpit_controls"}}],
+                                "text":{"key":"menu_button_close_x"}
+
+                            }]
+                        }]
+                    }]
+                }]
+            }]
+        }
+    }
+}]

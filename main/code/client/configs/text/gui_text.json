@@ -1,0 +1,42 @@
+[
+    {
+        "text_keys":{
+            "aerodynamic_curves":"Curves",
+            "debug_mechanics":"Debug",
+            "wing_smoke":"Smoke",
+            "menu_button_close_x":"X",
+            "button_canopy":"Canopy",
+            "button_gear":"Gear",
+            "throttle_label":"THR",
+            "flaps_label":"FLP",
+            "brakes_label":"BRK",
+            "elevator_label":"PITCH",
+            "aeilrons_label":"ROLL",
+            "rudder_label":"YAW",
+            "lights_button_label":"Lights",
+            "cockpit_button_label":"Cockpit",
+            "cockpit_lights_label":"Cockpit",
+
+            "cockpit_screens_label":"Screens",
+            "cockpit_hud_label":"HUD",
+            "cockpit_hdd_label":"HDD",
+
+
+            "lights_formation_label":"Formation",
+            "lights_collision_label":"Collision",
+            "lights_position_label":"Position",
+            "lights_taxi_label":"Taxi",
+            "lights_mode_label":"Mode",
+
+            "alert_test_1":["Test Alert Channel", "Message #1: Hello!"],
+            "alert_test_2":["Test Alert Channel", "Message #2: Hello World?"],
+            "alert_test_3":["Test Alert Channel", "Message #3: The third message..."],
+            "hint_test_1":["Test Hint Channel", "Hint #1: Hello!"],
+            "hint_test_2":["Test Hint Channel", "Hint #2: Hello World?"],
+            "hint_test_3":["Test Hint Channel", "Hint #3: The third message..."],
+            "sys_test_1":["Test System Channel", "Sys #1", "Hello from system!"],
+            "sys_test_2":["Test System Channel", "Sys #2", "System says:", "Hello World?"],
+            "sys_test_3":["Test System Channel", "Sys #3", "The third system message..."]
+        }
+    }
+]

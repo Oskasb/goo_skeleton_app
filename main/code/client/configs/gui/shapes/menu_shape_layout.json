@@ -1,0 +1,22 @@
+[{
+    "shapes": {
+
+        "control_panel_open":{
+            "passive":{
+                "pos":{
+                    "unit":"px",
+                    "top":-130,
+                    "left":-490
+                },
+                "shape":{
+                    "unit":"px",
+                    "width":500,
+                    "height":300
+                }
+            }
+        },
+        "color_sub_menu_panel":{
+            "passive":"shape_sub_menu_panel"
+        }
+    }
+}]

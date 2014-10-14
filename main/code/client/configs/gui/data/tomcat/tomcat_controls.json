@@ -1,0 +1,122 @@
+[{
+    "template":{
+        "tomcat_controls":{
+            "layers": [
+                {
+                    "shape":"bottom_left_container",
+                    "layers": [
+                        {
+                            "shape":"throttle_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"throttle", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_state_slider",
+                                "params":{
+                                    "control":"throttle",
+                                    "factor":1,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"throttle_label"},
+                                "shape":"control_slider_label"
+                            }]
+                        },
+                        {"shape":"flaps_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"flaps", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_state_slider",
+                                "params":{
+                                    "control":"flaps",
+                                    "factor":1,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"flaps_label"},
+                                "shape":"control_slider_label"
+                            }]
+                        },
+                        {"shape":"brakes_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"breaks", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"control_state_slider",
+                                "params":{
+                                    "control":"breaks",
+                                    "factor":1,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"brakes_label"},
+                                "shape":"control_slider_label"
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "shape":"anchor_bottom_right",
+                    "layers": [{
+                        "shape":"vector_input_control_container",
+                        "layers": [{
+                            "shape":"elevator_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"elevator", "axis":1}}],
+                            "feedback_gadgets":[{
+                                "gadget":"vertical_input_control",
+                                "params":{
+                                    "control":"elevator",
+                                    "factor":0.5,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"elevator_label"},
+                                "shape":"control_slider_label"
+                            }]
+
+                        },{
+                            "shape":"aeilrons_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"aeilrons", "axis":0}}],
+                            "feedback_gadgets":[{
+                                "gadget":"horizontal_input_control",
+                                "params":{
+                                    "control":"aeilrons",
+                                    "factor":0.5,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"aeilrons_label"},
+                                "shape":"control_slider_label_horizontal"
+                            }]
+
+                        },{
+                            "shape":"rudder_control",
+                            "on_drag":[{"call":"player_control_event", "params":{"control":"rudder", "axis":0}}],
+                            "feedback_gadgets":[{
+                                "gadget":"horizontal_input_control",
+                                "params":{
+                                    "control":"rudder",
+                                    "factor":0.5,
+                                    "input_source":"player_control_update",
+                                    "monitor_source":"applied_control_update"
+                                }
+                            }],
+                            "layers": [{
+                                "text":{"key":"rudder_label"},
+                                "shape":"control_slider_label_horizontal"
+                            }]
+
+                        }]
+                    }]
+
+                }
+
+            ]
+        }
+    }
+}]

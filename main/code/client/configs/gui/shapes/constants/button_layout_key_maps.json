@@ -1,0 +1,83 @@
+[{
+    "layout_key_maps": {
+        "shape_control_button_label": {
+            "unit": "px",
+            "top": 0,
+            "left": 0,
+            "width": "width_control_button",
+            "height": "height_control_button"
+        },
+        "text_gui_symbol_label":{
+            "unit":"px",
+            "text_align":"center",
+            "font_size":28,
+            "top":7,
+            "left":0,
+            "font_family":"font_game_buttons",
+            "color": "color_button_label_base"
+        },
+        "text_gui_symbol_cancel_label":{
+            "unit":"px",
+            "text_align":"center",
+            "font_size":28,
+            "top":7,
+            "left":0,
+            "font_family":"font_game_buttons",
+            "color": "color_cancel_label_base"
+        },
+
+        "text_control_subtle_label":{
+            "unit":"%",
+            "text_align":"center",
+            "font_size":16,
+            "top":25,
+            "left":0,
+            "font_family":"font_game_buttons",
+            "color": "color_button_label_subtle"
+        },
+
+        "text_control_weak_label":{
+            "unit":"%",
+            "text_align":"center",
+            "font_size":16,
+            "top":25,
+            "left":0,
+            "font_family":"font_game_buttons",
+            "color": "color_button_label_weak"
+        },
+        "text_control_button_label":{
+            "unit":"%",
+            "text_align":"center",
+            "font_size":20,
+            "top":25,
+            "left":0,
+            "font_family":"font_game_buttons",
+            "color": "color_button_label_base"
+        },
+        "background_control_button_passive": {
+            "image_svg": "control_button_passive"
+        },
+
+        "control_button_background_hover": {
+            "background": {
+                "image_svg": "control_button_hover"
+            },
+            "text":{
+                "color": "color_button_label_hover"
+            }
+        },
+        "control_button_label_active": {
+            "text":{
+                "color": [1,1,1,1]
+            }
+        },
+        "control_button_screen_active": {
+            "background": {
+                "image_svg": "control_button_active"
+            },
+            "text":{
+                "color": "color_button_label_active"
+            }
+        }
+    }
+}]

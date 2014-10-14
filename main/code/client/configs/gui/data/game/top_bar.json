@@ -1,0 +1,29 @@
+[{
+
+    "template":{
+        "top_bar":{
+            "layers": [
+                {
+                    "shape":"top_bar_box",
+                    "layers": [
+                        {
+                            "shape":"stats_tracker",
+                            "text":{
+                                "key":"frame_tpf",
+                                "callback":"frame_tpf",
+                                "on_hover":
+                                {
+                                    "key":"frame_tpf",
+                                    "callback":"more_stats"
+                                }
+                            }
+                        },
+                        {
+                            "shape":"tpf_graph"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}]

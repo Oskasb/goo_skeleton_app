@@ -1,0 +1,19 @@
+[{
+    "shapes": {
+        "sub_menu_label": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": -10,
+                    "left": -30
+                },
+                "shape":{
+                    "unit": "px",
+                    "width": 75,
+                    "height": 25
+                },
+                "text": "text_label_menu_hud"
+            }
+        }
+    }
+}]

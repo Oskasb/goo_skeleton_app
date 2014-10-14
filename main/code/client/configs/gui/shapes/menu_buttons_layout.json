@@ -1,0 +1,38 @@
+[{
+    "shapes": {
+        "shape_menu_container_close_x":{
+            "passive":{
+                "pos":{
+                    "unit":"px",
+                    "top":-4,
+                    "left":-22
+                },
+                "shape":{
+                    "unit":"px",
+                    "width":36,
+                    "height":36
+
+                }
+            }
+        },
+        "shape_menu_button_close_x":{
+            "passive":{
+                "pos":{
+                    "unit":"%",
+                    "top":0,
+                    "left":0
+                },
+                "shape":{
+                    "unit":"%",
+                    "width":100,
+                    "height":100
+
+                },
+                "text": "text_gui_symbol_cancel_label",
+                "border": "border_menu_close_x_button_box"
+            },
+            "on_hover":"shape_menu_close_x_button_hover",
+            "on_active":"shape_menu_close_x_button_active"
+        }
+    }
+}]

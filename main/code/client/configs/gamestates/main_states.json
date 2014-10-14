@@ -1,0 +1,24 @@
+[{
+	"main_gui_states":{
+		"state_flight":{
+			"templates": [
+                "messages"
+			]
+		},
+        "debug_state":{
+            "templates": [
+                "debug_buttons",
+                "aerodynamics_graph",
+                "top_bar"
+            ]
+        },
+		"tomcat_controls":{
+			"templates": [
+                "tomcat_controls",
+                "tomcat_hud_buttons",
+                "tomcat_lights_controls",
+                "tomcat_cockpit_controls"
+			]
+		}
+	}
+}]
