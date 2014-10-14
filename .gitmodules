@@ -1,0 +1,6 @@
+[submodule "main/code/client/js/submodules/data_pipeline"]
+	path = main/code/client/js/submodules/data_pipeline
+	url = https://github.com/Oskasb/client_worker_data_pipeline.git
+[submodule "main/code/client/js/submodules/canvas_gui_3d"]
+	path = main/code/client/js/submodules/canvas_gui_3d
+	url = https://github.com/Oskasb/canvas_gui_3d.git
