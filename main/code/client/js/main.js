@@ -3,7 +3,7 @@
 require.config({
 	paths: {
 		goo: "../../../../../../../../projects/goojs/src/goo",
-		pipeline: "submodules/data_pipeline/src",
+		data_pipeline: "submodules/data_pipeline/src",
 		gui:"submodules/canvas_gui_3d/src"
 		// goo: "./lib/goo"
 	}
