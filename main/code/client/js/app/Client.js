@@ -2,15 +2,18 @@
 
 
 define([
-	"app/camera/TerrainCamera",
-	"data_pipeline/data/ConfigCache"
+	'app/camera/TerrainCamera',
+	'gui/CanvasGuiAPI'
 ],
 	function(
-		TerrainCamera
+		TerrainCamera,
+		CanvasGuiAPI
 		) {
 
-		var Client = function() {
+		var guiMasterUrl = 'configs/config_urls.json';
 
+		var Client = function() {
+			this.canvasGuiAPI = new CanvasGuiAPI(1024);
 		};
 
 		Client.prototype.initiateClient = function(gooSetup) {
@@ -21,14 +24,20 @@ define([
 			this.preload();
 		};
 
-
-
 		Client.prototype.preload = function() {
 			this.gooSetup.startRenderLoop();
-			this.loadingCompleted();
+
+			var guiReady = function() {
+				console.error("Gui init OK");
+				this.loadingCompleted();
+			}.bind(this);
+
+			var guiInitFail = function(err) {
+				console.error("Gui failed:", err);
+			};
+
+			this.canvasGuiAPI.initCanvasGui(guiMasterUrl, this.camera, {}, guiReady, guiInitFail);
 		};
-
-
 
 		Client.prototype.tickClient = function(tpf) {
 			this.now += tpf;
