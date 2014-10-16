@@ -47,9 +47,31 @@
                         "callback":"more_stats"
                     }
                 }
-            }
+            },
 
-        },
+			"on_active":{
+				"border": "border_control_slider_passive",
+				"background":{
+					"color":[0.3,0.0,0.1, 0.5]
+				},
+				"shape": {
+					"width": 320,
+					"height": 420
+				},
+				"text":{
+					"top":18,
+					"left":-40,
+					"text_align":"start",
+					"font_size":28,
+					"line_spacing":4,
+					"color":[1,0.8,0.6, 1],
+					"source":{
+						"callback":"more_stats"
+					}
+				}
+			}
+
+			},
         "tpf_graph": {
             "passive": {
                 "pos": {
@@ -67,15 +89,21 @@
                     "line_width": 0.5,
                     "top_value": 16,
                     "color": [1, 0.4, 0.7,1]
-                }
+                },
+				"text":{
+					"top":18,
+					"left":-40,
+					"text_align":"start",
+					"font_size":28,
+					"line_spacing":4,
+					"color":[1,0.8,0.6, 1],
+					"source":{
+						"callback":"more_stats"
+					}
+				}
             },
 
             "on_hover":{
-                "pos": {
-                    "unit": "px",
-                    "top": 10,
-                    "left": 55
-                },
                 "draw_callback":{
                     "source":"tpf_graph",
                     "line_width": 2,
@@ -89,7 +117,33 @@
                     "height": 210
 
                 }
-            }
+            },
+			"on_active":{
+				"draw_callback":{
+					"source":"tpf_graph",
+					"line_width": 2,
+					"top_value": 15,
+					"color": [1, 0.5, 0.8,1]
+				},
+				"border": "border_control_slider_passive",
+				"shape": {
+					"unit":"%",
+					"width": 450,
+					"height": 210
+
+				},
+				"text":{
+					"top":18,
+					"left":-40,
+					"text_align":"start",
+					"font_size":28,
+					"line_spacing":4,
+					"color":[1,0.8,0.6, 1],
+					"source":{
+						"callback":"more_stats"
+					}
+				}
+			}
         }
     }
 }]

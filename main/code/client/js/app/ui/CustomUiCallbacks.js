@@ -145,7 +145,7 @@ define([
 				for (var key in messageElements[args.channel]) {
 					var element = messageElements[args.channel][key];
 					element.notifyStateChange(element.messageChannels[args.channel]);
-					element.stateTieout = element.messageData.duration*1000;
+					element.stateTieout = element.messageData.duration;
 				}
 			}
 		};
