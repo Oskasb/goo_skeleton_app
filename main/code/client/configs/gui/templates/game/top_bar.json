@@ -8,6 +8,7 @@
                     "layers": [
                         {
                             "shape":"stats_tracker",
+							"on_apply":[{"call":"gui_toggle_template", "params":{"template":"messages"}}],
                             "text":{
                                 "callback":"frame_tpf",
                                 "on_hover":

@@ -1,0 +1,19 @@
+[{
+
+    "shapes": {
+        "top_bar_box": {
+            "passive": {
+                "pos": {
+                    "unit": "px",
+                    "top": 2,
+                    "left": 2
+                },
+                "shape":{
+                    "unit": "%",
+                    "width": 20,
+                    "height": 40
+                }
+            }
+        }
+    }
+}]
