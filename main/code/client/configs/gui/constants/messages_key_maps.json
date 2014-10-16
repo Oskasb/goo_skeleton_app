@@ -26,7 +26,7 @@
                 "top":0,
                 "left":0,
                 "text_align":"right",
-                "font_size":20,
+                "font_size":30,
                 "font_family":"font_dev_alerts",
                 "line_spacing":4,
                 "color": "color_text_system_warning"
@@ -50,7 +50,7 @@
                 "top":0,
                 "left":0,
                 "text_align":"right",
-                "font_size":24,
+                "font_size":34,
                 "font_family":"font_dev_alerts",
                 "line_spacing":4,
                 "color":"color_text_system_update"
@@ -62,7 +62,7 @@
                 "top":0,
                 "left":0,
                 "text_align":"center",
-                "font_size":48,
+                "font_size":68,
                 "font_family":"font_game_messages",
                 "line_spacing":4,
                 "color":"color_text_game_hint"
