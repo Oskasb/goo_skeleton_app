@@ -2,10 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6d9dc7-7b24-4038-9650-b1b231b05379" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/camera/SimpleCam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/measure/PerfMon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/code/client/js/app/ui/CustomUiCallbacks.js" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\configs\gui\shapes\flight_layout.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\debug\aerodynamics_graph.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\game\messages.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\game\top_bar.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\tomcat\tomcat_cockpit_controls.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\tomcat\tomcat_controls.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\tomcat\tomcat_hud_control_buttons.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\data\tomcat\tomcat_lights_controls.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\button_layout_key_maps.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_color_constants.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants_box_shapes.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants_buttons.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants_fonts.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants_labels.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_constants_menus.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_input_constants.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\layout_key_maps.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\messages_key_maps.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs\gui\shapes\constants\slider_layout_key_maps.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\app\camera\FlyControlScript.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\app\camera\TerrainCamera.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d" afterPath="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline" afterPath="$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/config_urls.json" afterPath="$PROJECT_DIR$/main/code/client/configs/config_urls.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/game/effects/particle_effects.json" afterPath="$PROJECT_DIR$/main/code/client/configs/game/effects/particle_effects.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json" afterPath="$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/gui/images/image_refs.json" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/images/image_refs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/menu_shape_layout.json" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/menu_shape_layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/message_layout.json" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/message_layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/text_labels_layout.json" afterPath="$PROJECT_DIR$/main/code/client/configs/gui/shapes/text_labels_layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/configs/text/gui_text.json" afterPath="$PROJECT_DIR$/main/code/client/configs/text/gui_text.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/css/base.css" afterPath="$PROJECT_DIR$/main/code/client/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/index.html" afterPath="$PROJECT_DIR$/main/code/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/app/Client.js" afterPath="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/code/client/js/main.js" afterPath="$PROJECT_DIR$/main/code/client/js/main.js" />
     </list>
     <ignored path="goo_skeleton_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,40 +97,85 @@
     <favorites_list name="goo_skeleton_app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44774103">
+    <splitter split-orientation="horizontal" split-proportion="0.5302469">
       <split-first>
         <leaf>
+          <file leaf-file-name="CanvasGuiState.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiState.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="115" column="49" selection-start="2866" selection-end="2882" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CanvasGui3D.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGui3D.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="89" column="14" selection-start="2496" selection-end="2496" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PerfMon.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/measure/PerfMon.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="60" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Client.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="62" column="49" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-15.692307">
+                <state line="27" column="38" selection-start="424" selection-end="424" vertical-scroll-proportion="-17.653847">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/css/base.css">
+          <file leaf-file-name="messages.json" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/templates/game/messages.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="0" selection-start="506" selection-end="540" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.25189874">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Client.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
+          <file leaf-file-name="CanvasGuiAPI.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiAPI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="18" selection-start="56" selection-end="69" vertical-scroll-proportion="0.1150203">
+                <state line="26" column="36" selection-start="763" selection-end="777" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CanvasGuiMain.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiMain.js">
+          <file leaf-file-name="PipelineAPI.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/PipelineAPI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+                <state line="41" column="10" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConfigCache.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/data/ConfigCache.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="24" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +184,7 @@
           <file leaf-file-name="InteractiveSurface.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/InteractiveSurface.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="143" column="105" selection-start="4155" selection-end="4155" vertical-scroll-proportion="0.0">
+                <state line="60" column="49" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -114,55 +194,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/main.js">
+          <file leaf-file-name="Client.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="0.35465926">
+                <state line="59" column="87" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.74388677">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base_schema.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/configs/validation/schemas/base_schema.json">
+          <file leaf-file-name="PerfMon.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/measure/PerfMon.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gui_config.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui_config.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config_urls.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/configs/config_urls.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="17" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DrawCallbacks.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/DrawCallbacks.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="20" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="button_ctrl_passive.svg" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_passive.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="13" column="47" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -171,14 +215,59 @@
           <file leaf-file-name="GooSetup.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/code/client/js/app/GooSetup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+                <state line="45" column="31" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="XhrThing.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/worker/XhrThing.js">
+          <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CustomUiCallbacks.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/ui/CustomUiCallbacks.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="152" column="8" selection-start="4131" selection-end="4207" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main_states.json" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="27" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CanvasGui3D.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGui3D.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="82" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CanvasCalls.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasCalls.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="290" column="53" selection-start="7533" selection-end="7549" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameScreen.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/GameScreen.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
@@ -186,19 +275,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UiParent.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/elements/UiParent.js">
+          <file leaf-file-name="SimpleCam.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/SimpleCam.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="goo.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main/code/client/js/lib/goo/goo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="9" column="36" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -219,23 +299,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/code/client/js/app/camera/FlyControlScript.js" />
-        <option value="$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js" />
-        <option value="$PROJECT_DIR$/main/code/client/base.css" />
-        <option value="$PROJECT_DIR$/main/code/client/css/base.css" />
-        <option value="$PROJECT_DIR$/main/code/client/index.html" />
-        <option value="$PROJECT_DIR$/main/code/client/js/app/GooSetup.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/GuiConfigLoader.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/worker/WorkerJsonValidator.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiAPI.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGui3D.js" />
+        <option value="$PROJECT_DIR$/main/code/client/configs/gui/data/game/top_bar.json" />
         <option value="$PROJECT_DIR$/main/code/client/configs/config_urls.json" />
+        <option value="$PROJECT_DIR$/main/code/client/configs/gui/shapes/top_bar_layout.json" />
+        <option value="$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasCalls.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/app/camera/TerrainCamera.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/app/ui/CustomUiCallbacks.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/app/camera/SimpleCam.js" />
+        <option value="$PROJECT_DIR$/main/code/client/js/app/measure/PerfMon.js" />
+        <option value="$PROJECT_DIR$/main/code/client/index.html" />
+        <option value="$PROJECT_DIR$/main/code/client/css/base.css" />
+        <option value="$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json" />
         <option value="$PROJECT_DIR$/main/code/client/js/app/Client.js" />
-        <option value="$PROJECT_DIR$/main/code/client/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="454" />
+    <option name="x" value="283" />
     <option name="y" value="8" />
-    <option name="width" value="2002" />
-    <option name="height" value="1300" />
+    <option name="width" value="2152" />
+    <option name="height" value="1315" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -272,6 +359,9 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -491,52 +581,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="worker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="submodules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_pipeline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -651,6 +695,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="submodules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas_gui_3d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -681,7 +767,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="submodules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas_gui_3d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -712,10 +810,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,6 +840,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -806,36 +968,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -985,105 +1117,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gamestates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goo_skeleton_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pieces" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1117,17 +1155,186 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="effects" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shapes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goo_skeleton_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gamestates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1141,13 +1348,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\app\measure" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\submodules\data_pipeline" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\js\submodules\canvas_gui_3d" />
-      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\configs" />
+      <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client" />
       <recent name="D:\projects\goo_studio\goo_skeleton_app\main\code\client\css" />
     </key>
   </component>
@@ -1172,24 +1381,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -1226,6 +1417,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1243,6 +1452,17 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -1272,17 +1492,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1299,14 +1508,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="454" y="8" width="2002" height="1300" extended-state="0" />
+    <frame x="283" y="8" width="2152" height="1315" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27705628" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1318,7 +1527,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23477812" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22413793" sideWeight="0.7229437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1381,105 +1590,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/lib/goo/goo.js">
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/PipelineAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="10" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/data/ConfigCache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/InteractiveSurface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="49" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGui3D.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="82" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasCalls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="53" selection-start="7533" selection-end="7549" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/GameScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/css/base.css">
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/camera/SimpleCam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="506" selection-end="540" vertical-scroll-proportion="0.0">
+        <state line="9" column="36" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/index.html">
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/measure/PerfMon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/elements/UiParent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/data_pipeline/src/worker/XhrThing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="47" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/js/app/GooSetup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+        <state line="45" column="31" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/configs/validation/schemas/base_schema.json">
+    <entry file="file://$PROJECT_DIR$/main/code/client/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/images/svg/button/button_ctrl_passive.svg">
+    <entry file="file://$PROJECT_DIR$/main/code/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="38" selection-start="424" selection-end="424" vertical-scroll-proportion="-17.653847">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui_config.json">
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gamestates/main_states.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/configs/config_urls.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/InteractiveSurface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="105" selection-start="4155" selection-end="4155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/functions/DrawCallbacks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="20" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0">
+        <state line="17" column="27" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/js/submodules/canvas_gui_3d/src/CanvasGuiMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+        <state line="37" column="50" selection-start="986" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/configs/gui/templates/game/messages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.25189874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/code/client/js/app/ui/CustomUiCallbacks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="8" selection-start="4131" selection-end="4207" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/code/client/js/app/Client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="56" selection-end="69" vertical-scroll-proportion="0.1150203">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code/client/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="0.35465926">
+        <state line="59" column="87" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.74388677">
           <folding />
         </state>
       </provider>

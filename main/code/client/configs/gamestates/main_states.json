@@ -1,19 +1,27 @@
 [{
 	"main_gui_states":{
-		"state_flight":{
+        "init_app_state":{
+            "templates": [
+                "menu_option_container",
+                "init_menu",
+                "messages"
+            ]
+        },
+
+		"messages_only":{
 			"templates": [
                 "messages"
 			]
 		},
         "debug_state":{
             "templates": [
-                "debug_buttons",
-                "aerodynamics_graph",
+				"messages",
                 "top_bar"
             ]
         },
 		"tomcat_controls":{
 			"templates": [
+                "messages",
                 "tomcat_controls",
                 "tomcat_hud_buttons",
                 "tomcat_lights_controls",

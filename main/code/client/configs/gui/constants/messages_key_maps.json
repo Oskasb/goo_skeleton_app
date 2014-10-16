@@ -50,7 +50,7 @@
                 "top":0,
                 "left":0,
                 "text_align":"right",
-                "font_size":32,
+                "font_size":24,
                 "font_family":"font_dev_alerts",
                 "line_spacing":4,
                 "color":"color_text_system_update"

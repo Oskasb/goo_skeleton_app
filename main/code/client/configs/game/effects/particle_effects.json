@@ -2,7 +2,7 @@
     "particle_effects":[
         {
             "id": "white_cloud_puff",
-            "texture": "resources/images/particles/smoke.png",
+            "texture": "images/particles/smoke.png",
             "color": [ 0.51, 0.51, 0.75, 0.22],
             "size": [ 1214200, 11214480 ],
             "growth": [0,10 ],
@@ -18,7 +18,7 @@
         },
         {
             "id":"white_smoke_stream",
-            "texture": "resources/images/particles/smoke.png",
+            "texture": "images/particles/smoke.png",
             "color": [0.85, 0.88, 0.95, 0.1],
             "size": [100,280],
             "growth": [300,7400],
@@ -34,7 +34,7 @@
         },
         {
             "id":"hit_smoke_puff",
-            "texture": "resources/images/particles/smoke.png",
+            "texture": "images/particles/smoke.png",
             "color": [0.15, 0.18, 0.19, 0.7],
             "size": [100,1280],
             "growth": [300,17400],
@@ -50,7 +50,7 @@
         },
         {
             "id": "explosion_fire",
-            "texture": "resources/images/particles/water_foam.png",
+            "texture": "images/particles/water_foam.png",
             "color": [ 1,1, 0.7,1],
             "blending": "additive",
             "size": [120, 140],
@@ -67,7 +67,7 @@
         },
         {
             "id": "splash_water",
-            "texture": "resources/images/particles/splash.png",
+            "texture": "images/particles/splash.png",
             "color": [0.8,0.8, 0.99, 1],
             "size": [1200, 2280],
             "growth": [ 6900,7400],
@@ -83,7 +83,7 @@
         },
         {
             "id": "metal_sparks",
-            "texture": "resources/images/particles/spark.png",
+            "texture": "images/particles/spark.png",
             "blending": "additive",
             "color": [
                 1,
@@ -120,7 +120,7 @@
         },
         {
             "id": "shockwave_fire",
-            "texture": "resources/images/particles/shockwave.png",
+            "texture": "images/particles/shockwave.png",
             "blending": "additive",
             "color": [
                 1,

@@ -53,8 +53,8 @@
             "passive": {
                 "pos": {
                     "unit": "%",
-                    "top": 85,
-                    "left": 90
+                    "top": 99.5,
+                    "left": 99.5
                 },
                 "shape": "shape_anchor_point"
             },

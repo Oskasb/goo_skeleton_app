@@ -12,25 +12,3 @@
     font-family: 'Berlin Sans Bold';
     src: url('fonts/BRLNSB.TTF');
 }
-
-#goo {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    font-family: 'Russo One';
-    font-weight: 400;
-    position: absolute;
-    background-color: #800;
-    font-size: 10pt;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    color: #fff;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}

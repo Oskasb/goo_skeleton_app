@@ -12,6 +12,15 @@
             "font_family":"font_game_labels",
             "color": "color_button_label_base"
         },
+        "text_label_menu_level_select":{
+            "unit":"px",
+            "text_align":"center",
+            "font_size":38,
+            "top":12,
+            "left":0,
+            "font_family":"font_game_labels",
+            "color": "color_button_label_base"
+        },
         "text_label_menu_hud":{
             "unit":"px",
             "text_align":"center",

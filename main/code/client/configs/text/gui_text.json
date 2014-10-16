@@ -1,6 +1,11 @@
 [
     {
         "text_keys":{
+            "menu_init_header":"Time To Fly",
+            "menu_init_fly_tomcat":"Fly",
+
+            "menu_init_takeoff_tomcat":"Takeoff",
+
             "aerodynamic_curves":"Curves",
             "debug_mechanics":"Debug",
             "wing_smoke":"Smoke",

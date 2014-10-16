@@ -1,5 +1,43 @@
 [{
     "shapes": {
+        "level_select_button_label": {
+            "passive":{
+                "pos": {
+                    "unit": "px",
+                    "top": 0,
+                    "left": 0
+                },
+                "shape":{
+                    "unit": "%",
+                    "width": 100,
+                    "height": 100
+                },
+                "text": "text_label_menu_level_select",
+                "background": "background_control_slider_passive"
+            },
+            "on_applied":"shape_control_button_state_light_applied"
+        },
+        "menu_center_container": {
+            "passive": {
+                "pos": {
+                    "unit": "%",
+                    "top": 22,
+                    "left": 50
+                },
+                "shape": "shape_anchor_point",
+                "text":{
+                    "unit":"px",
+                    "top":0,
+                    "left":0,
+                    "text_align":"center",
+                    "font_size":170,
+                    "font_family":"font_game_labels",
+                    "line_spacing":2,
+                    "color":"color_menu_label_header"
+                }
+            }
+
+        },
         "sub_menu_label": {
             "passive":{
                 "pos": {

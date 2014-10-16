@@ -1,0 +1,45 @@
+[{
+    "template":{
+        "init_menu":{
+            "layers": [{
+
+                "shape":"anchor_mid_center",
+                "layers": [{
+                    "shape":"init_menu_select_free_flight_button",
+                    "id":"init_tomcat_fly_free",
+                    "on_apply":[
+                        {"call":"fire_game_event", "params":{"event":"START_SCENARIO_ID", "args":{"scenarioId":"tomcat_freeflight"}}}
+                    ],
+
+                    "layers": [{
+                        "id":"menu_init_fly_tomcat",
+                        "text":{"key":"menu_init_fly_tomcat"},
+                        "shape":"level_select_button_label"
+                    }]
+                },{
+                    "shape":"init_menu_select_takeoff_tomcat_button",
+
+                    "id":"init_tomcat_carrier_takeoff",
+                    "on_apply":[
+                        {"call":"fire_game_event", "params":{"event":"START_SCENARIO_ID", "args":{"scenarioId":"carrier_patrol"}}}
+                    ],
+
+                    "layers": [{
+                        "id":"menu_init_takeoff_tomcat",
+                        "text":{"key":"menu_init_takeoff_tomcat"},
+                        "shape":"level_select_button_label"
+                    }]
+                }]
+            }]
+        },
+        "menu_option_container":{
+            "layers": [{
+                "shape":"canvas_parent",
+                "layers": [{
+                    "shape":"menu_center_container",
+                    "text":{"key":"menu_init_header"}
+                }]
+            }]
+        }
+    }
+}]

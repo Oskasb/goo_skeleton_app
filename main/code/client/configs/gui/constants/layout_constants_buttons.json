@@ -1,6 +1,10 @@
 [{
     "layout_key_maps": {
-
+        "shape_menu_select_level": {
+            "unit": "px",
+            "width": 175,
+            "height": 55
+        },
         "shape_panel_input_box": {
             "unit": "px",
             "width": 75,
@@ -127,7 +131,43 @@
             "background": {
                 "color":"color_slider_back_active"
             }
+
         },
+
+
+        "background_menu_selection_button_passive":{
+                "color":  "color_button_back_base"
+
+        },
+
+        "shape_menu_selection_button_hover":{
+            "border": {
+                "unit":"px",
+                "color":  "color_slider_border_hover",
+                "line_width":4
+            },
+            "text":{
+                "color":  "color_button_label_hover"
+            },
+            "background": {
+                "color":  "color_button_back_hover"
+            }
+        },
+
+        "shape_menu_selection_button_active":{
+            "border": {
+                "unit":"px",
+                "color":  "color_slider_border_hover",
+                "line_width":4
+            },
+            "text":{
+                "color":  "color_button_label_hover"
+            },
+            "background": {
+                "color":  "color_button_back_active"
+            }
+        },
+
         "shape_control_button_state_light_applied":{
             "text": {
                 "color":  "color_button_label_active"

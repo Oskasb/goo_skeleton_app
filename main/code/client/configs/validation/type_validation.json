@@ -1,0 +1,10 @@
+[{
+    "validation": {
+        "type_list":{
+            "object":["type_list"],
+            "array" :[],
+            "string":["object", "array", "string", "number"],
+            "number":[]
+        }
+    }
+}]

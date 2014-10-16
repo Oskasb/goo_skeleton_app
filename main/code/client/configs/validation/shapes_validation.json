@@ -1,0 +1,19 @@
+[{
+    "validation": {
+        "validation":{
+            "required_objects":null
+        },
+        "shapes":{
+            "required_objects":{
+                "passive":["pos", "shape"]
+            }
+        },
+        "setup":{
+            "optional_objects":{
+                "page":{
+                    "blending":["default", "modes"]
+                }
+            }
+        }
+    }
+}]
