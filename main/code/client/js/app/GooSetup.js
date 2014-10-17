@@ -49,35 +49,15 @@ define([
 
 	};
 
-	GooSetup.prototype.registerBundleList = function(bundles) {
-		var fail = function(err) {
-			console.error("Failed to load bundle: ", err);
+	GooSetup.prototype.initBundleData = function(srcUrl, downloadOk, fail) {
+
+
+		var assetUpdated = function(srcKey, data) {
+			downloadOk(srcKey, data);
+			console.log("Asset Updated: ", srcKey, data);
 		};
 
-		for (var i = 0; i < bundles.length; i++) {
-
-			var success = function(srcKey, loaderData) {
-				this.bundleUpdated(srcKey, loaderData);
-			}.bind(this);
-
-			PipelineAPI.subscribeToGooBundle(this.goo, bundles[i], success, fail)
-		}
-
-	};
-
-	GooSetup.prototype.bundleMasterUpdated = function(srcKey, data, success, fail) {
-		console.log("Bundle Master Update: ", srcKey, data);
-		for (var i = 0; i < data.length; i++) {
-			this.registerBundleList(data[i].bundle_index.bundles);
-		}
-	};
-
-
-	GooSetup.prototype.initBundleData = function(srcUrl, success, fail) {
-		var bundleMasterUpdated = function(srcKey, data) {
-			this.bundleMasterUpdated(srcKey, data, success, fail);
-		}.bind(this);
-		PipelineAPI.subscribeToConfigUrl(srcUrl, bundleMasterUpdated, fail);
+		PipelineAPI.initBundleDownload(this.goo, srcUrl, assetUpdated, fail);
 	};
 
 

@@ -63,7 +63,14 @@ define([
 				console.error("Bundle update FAIL:", err);
 			};
 
-			this.gooSetup.initBundleData(bundleMasterUrl, bundlesReady, bundleFail);
+			var bundles = function() {
+				this.gooSetup.initBundleData(bundleMasterUrl, bundlesReady, bundleFail);
+			}.bind(this)
+
+			setTimeout(function(){
+				bundles()
+			}, 1000)
+
 
 		};
 
