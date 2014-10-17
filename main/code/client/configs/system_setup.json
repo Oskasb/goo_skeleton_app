@@ -1,8 +1,28 @@
 [{
 
     "setup": {
+		"pipeline":{
+			"jsonPipe":{
+				"polling":{
+					"enabled":true,
+					"frequency":10
+				}
+			},
+			"svgPipe":{
+				"polling":{
+					"enabled":true,
+					"frequency":0.1
+				}
+			},
+			"gooPipe":{
+				"polling":{
+					"enabled":true,
+					"frequency":5
+				}
+			}
+		},
          "page":{
-             "resolution":1024,
+             "resolution":512,
              "blending":{
                  "default":"color_add",
                  "modes":{

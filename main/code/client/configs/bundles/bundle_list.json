@@ -1,0 +1,12 @@
+[{
+	"bundle_index":{
+		"bundles":[
+			{
+				"id":"testcube",
+				"folder":"resources/bundles/testcube",
+				"file":"root.bundle"
+			}
+
+		]
+	}
+}]
