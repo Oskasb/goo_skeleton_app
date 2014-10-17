@@ -17,6 +17,7 @@ define([
 		) {
 
 		var guiMasterUrl = 'configs/config_urls.json';
+		var bundleMasterUrl = 'configs/bundles/bundle_list.json';
 
 		var Client = function() {
 			this.canvasGuiAPI = new CanvasGuiAPI(1024);
@@ -52,6 +53,18 @@ define([
 			};
 
 			this.canvasGuiAPI.initCanvasGui(guiMasterUrl, this.camera, CustomUiCallbacks.getCallbackMap(), guiReady, guiInitFail);
+
+
+			var bundlesReady = function(sourceKey, res) {
+				console.log("Bundle update OK", sourceKey, res);
+			};
+
+			var bundleFail = function(err) {
+				console.error("Bundle update FAIL:", err);
+			};
+
+			this.gooSetup.initBundleData(bundleMasterUrl, bundlesReady, bundleFail);
+
 		};
 
 		var frames = 0;

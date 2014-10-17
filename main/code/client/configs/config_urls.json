@@ -27,7 +27,7 @@
 			"configs/gui/constants/layout_constants_buttons.json",
 
 			"configs/system_setup.json",
-			"configs/bundles/bundle_list.json",
+
 
 			"configs/gui/templates/game/top_bar.json",
 			"configs/gui/templates/game/messages.json",

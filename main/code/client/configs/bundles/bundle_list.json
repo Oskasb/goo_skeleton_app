@@ -1,9 +1,10 @@
 [{
+
 	"bundle_index":{
 		"bundles":[
 			{
-				"id":"testcube",
-				"folder":"resources/bundles/testcube",
+				"id":"nature",
+				"folder":"resources/bundles/nature/",
 				"file":"root.bundle"
 			}
 
