@@ -5,7 +5,14 @@
 			{
 				"id":"nature",
 				"folder":"resources/bundles/nature/",
-				"file":"root.bundle"
+				"file":"root.bundle",
+				"entities":["tree_leafy_40m"]
+			},
+			{
+				"id":"testcube",
+				"folder":"resources/bundles/testcube/",
+				"file":"root.bundle",
+				"entities":["Box"]
 			}
 
 		]

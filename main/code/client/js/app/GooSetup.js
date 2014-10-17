@@ -60,7 +60,7 @@ define([
 				this.bundleUpdated(srcKey, loaderData);
 			}.bind(this);
 
-			PipelineAPI.subscribeToGooBundle(this.goo, bundles[i].id, bundles[i].folder, bundles[i].file, success, fail)
+			PipelineAPI.subscribeToGooBundle(this.goo, bundles[i], success, fail)
 		}
 
 	};
