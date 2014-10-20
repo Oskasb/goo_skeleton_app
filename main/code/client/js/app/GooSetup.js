@@ -46,17 +46,24 @@ define([
 
 
 
-	GooSetup.prototype.handleBundleUpdated = function(srcKey) {
-		console.log("BundleData updated", srcKey, this.loadedEntities);
+	GooSetup.prototype.handleBundleUpdated = function(entityName) {
+		console.log("BundleData updated", entityName, this.loadedEntities);
 
-		if (!this.callbackIndex[srcKey]) {
-			this.callbackIndex[srcKey] = [];
+		if (!this.callbackIndex[entityName]) {
+			this.callbackIndex[entityName] = [];
 		}
 
-		for (var i = 0; i < this.callbackIndex[srcKey].length; i++) {
-			this.callbackIndex[srcKey][i](this.loadedEntities[srcKey].build())
-		}
+		var buildCallback = function(entity) {
+			console.log("We built this entity: ", entity);
+			entity.addToWorld();
 
+		};
+
+		this.callbackIndex[entityName].push(buildCallback);
+
+		for (var i = 0; i < this.callbackIndex[entityName].length; i++) {
+			this.callbackIndex[entityName][i](this.loadedEntities[entityName].build())
+		}
 	};
 
 
