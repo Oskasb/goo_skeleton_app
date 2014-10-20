@@ -1,6 +1,11 @@
 [{
 
-    "shapes": {
+    "layout_key_maps": {
+		"shape_anchor_point":{
+			"unit": "px",
+			"width": 0,
+			"height": 0
+		},
         "canvas_parent": {
             "passive": {
                 "pos": {
@@ -55,6 +60,16 @@
                 "shape": "shape_anchor_point"
             }
         },
+		"anchor_top_center": {
+			"passive":{
+				"pos": {
+					"unit": "%",
+					"top": 0,
+					"left": 0
+				},
+				"shape": "shape_anchor_point"
+			}
+		},
         "anchor_top_right": {
             "passive":{
                 "pos": {
@@ -75,6 +90,16 @@
                 "shape": "shape_anchor_point"
             }
         },
+		"anchor_bottom_center": {
+			"passive":{
+				"pos": {
+					"unit": "%",
+					"top": 100,
+					"left": 50
+				},
+				"shape": "shape_anchor_point"
+			}
+		},
         "anchor_bottom_right": {
             "passive":{
                 "pos": {

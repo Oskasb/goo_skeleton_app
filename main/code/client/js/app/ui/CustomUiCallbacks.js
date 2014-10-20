@@ -113,10 +113,10 @@ define([
 				for (var channel in messageElements) {
 					for (var elemKey in messageElements[channel]) {
 						var element = messageElements[channel][elemKey];
-						if (element.stateTieout > 0) {
-							element.stateTieout -= tpf;
+						if (element.stateTimeout > 0) {
+							element.stateTimeout -= tpf;
 							element.notifyStateChange(element.messageChannels[channel]);
-							if (element.stateTieout < 0 ) {
+							if (element.stateTimeout < 0 ) {
 								element.notifyStateChange(element.states.passive);
 							}
 						}
@@ -145,7 +145,7 @@ define([
 				for (var key in messageElements[args.channel]) {
 					var element = messageElements[args.channel][key];
 					element.notifyStateChange(element.messageChannels[args.channel]);
-					element.stateTieout = element.messageData.duration;
+					element.stateTimeout = element.messageData.duration;
 				}
 			}
 		};

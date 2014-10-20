@@ -1,63 +1,18 @@
 [{
     "config_url_index":{
         "files":[
+
 			"configs/validation/schemas/base_schema.json",
-
-			"configs/validation/type_validation.json",
-			"configs/validation/shapes_validation.json",
-
+			"configs/system_setup.json",
 			"configs/gamestates/main_states.json",
-
-			"configs/game/values/aerodynamics.json",
-			"configs/game/effects/particle_effects.json",
-			"configs/game/effects/posteffects.json",
+			"configs/gui/shapes/required/anchor_points.json",
 			"configs/text/gui_text.json",
 
-			"configs/gui/constants/layout_key_maps.json",
-			"configs/gui/constants/slider_layout_key_maps.json",
-			"configs/gui/constants/button_layout_key_maps.json",
-			"configs/gui/constants/messages_key_maps.json",
-			"configs/gui/constants/layout_constants.json",
-			"configs/gui/constants/layout_color_constants.json",
-			"configs/gui/constants/layout_input_constants.json",
-			"configs/gui/constants/layout_constants_fonts.json",
-			"configs/gui/constants/layout_constants_menus.json",
-			"configs/gui/constants/layout_constants_labels.json",
-			"configs/gui/constants/layout_constants_box_shapes.json",
-			"configs/gui/constants/layout_constants_buttons.json",
 
-			"configs/system_setup.json",
+			"configs/gui/templates/debug/top_bar.json",
+			"configs/gui/templates/debug/messages.json",
 
-
-			"configs/gui/templates/game/top_bar.json",
-			"configs/gui/templates/game/messages.json",
-            "configs/gui/templates/menus/menu_init_app.json",
-            "configs/gui/templates/debug/aerodynamics_graph.json",
-            "configs/gui/templates/tomcat/tomcat_hud_control_buttons.json",
-            "configs/gui/templates/tomcat/tomcat_controls.json",
-            "configs/gui/templates/tomcat/tomcat_lights_controls.json",
-            "configs/gui/templates/tomcat/tomcat_cockpit_controls.json",
-
-
-			"configs/gui/images/image_refs.json",
-			"configs/gui/shapes/anchor_points.json",
-			"configs/gui/shapes/text_labels_layout.json",
-			"configs/gui/shapes/menu_buttons_layout.json",
-			"configs/gui/shapes/menu_shape_layout.json",
-			"configs/gui/shapes/flight_layout.json",
-			"configs/gui/shapes/performance_monitor.json",
-			"configs/gui/shapes/message_layout.json",
-			"configs/gui/shapes/gadgets/drag_controls.json",
-			"configs/gui/shapes/planes/tomcat/tomcat_layout.json",
-			"configs/gui/shapes/planes/tomcat/tomcat_stick_layout.json",
-			"configs/gui/shapes/planes/tomcat/tomcat_lights_layout.json",
-			"configs/gui/shapes/planes/tomcat/tomcat_hud_buttons.json",
-			"configs/gui/shapes/gadgets/control_slider.json",
-			"configs/gui/shapes/gadgets/select_controls.json",
-			"configs/gui/shapes/debug/debug_gui_layout.json",
-
-			"configs/game/pieces/tomcat/tomcat_control_systems.json",
-			"configs/game/pieces/tomcat/tomcat_wing_data.json"
+			"configs/gui/images/image_refs.json"
 
         ]
     }

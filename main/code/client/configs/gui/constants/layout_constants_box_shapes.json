@@ -1,10 +1,7 @@
 [{
+
     "layout_key_maps": {
-        "shape_anchor_point":{
-            "unit": "px",
-            "width": 0,
-            "height": 0
-        },
+
         "shape_bottom_left_box": {
             "unit": "px",
             "width": 22,

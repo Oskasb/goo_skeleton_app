@@ -1,0 +1,249 @@
+[
+	{
+		"template":{
+			"messages":{
+				"id": "messages",
+				"name": "Messages",
+				"layers": [
+					{
+						"zIndex":99999,
+						"shape":"data_validation_error_container",
+						"on_message":{
+							"channels":["data_validation_error_channel"],
+							"duration":9
+						}
+					},
+					{
+						"zIndex":999991,
+						"shape":"data_validation_ok_container",
+						"on_message":{
+							"channels":["data_validation_update_channel"],
+							"duration":5
+						}
+					},
+					{
+						"zIndex":99999,
+						"shape":"data_error_changed_container",
+						"on_message":{
+							"channels":["data_error_update_channel"],
+							"duration":7
+						}
+					},
+					{
+						"zIndex":99999,
+						"shape":"data_error_container",
+						"on_message":{
+							"channels":["data_error_channel"],
+							"duration":7
+						}
+					},
+					{
+						"zIndex":99999,
+						"shape":"data_update_container",
+						"on_message":{
+							"channels":["data_update_channel"],
+							"duration":3
+						}
+					},
+					{
+						"zIndex":1001,
+						"shape":"center_container",
+						"on_message":{
+							"channels":["alert_channel"],
+							"duration":5
+						}
+					},
+					{
+						"shape":"hints_container",
+						"on_message":{
+							"channels":["hint_channel"],
+							"duration":5
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"shapes": {
+
+			"data_validation_ok_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 15,
+						"left": 95
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":{
+					"text":"message_text_list_ok"
+				}
+			},
+			"data_validation_error_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 4,
+						"left": 50
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":{
+					"text":"message_text_list_fail"
+				}
+			},
+			"data_error_changed_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 70,
+						"left": 90
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":"on_data_error_changed_message_text"
+			},
+			"data_error_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 75,
+						"left": 90
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":"on_data_error_message_text"
+			},
+			"data_update_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 99.5,
+						"left": 99.5
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message": "on_data_update_message_text"
+			},
+			"hints_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 20,
+						"left": 50
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":"on_hint_channel_message_text"
+			},
+			"center_container": {
+				"passive": {
+					"pos": {
+						"unit": "%",
+						"top": 50,
+						"left": 50
+					},
+					"shape": "shape_anchor_point"
+				},
+				"on_message":"on_alert_channel_message_text"
+			}
+		}
+	},
+	{
+		"layout_key_maps": {
+			"message_text_list_ok":{
+				"unit":"px",
+				"top":0,
+				"left":0,
+				"text_align":"right",
+				"font_size":22,
+				"font_family":"font_dev_messages",
+				"line_spacing":6,
+				"color": "color_message_system_update"
+			},
+			"message_text_list_fail":{
+				"unit":"px",
+				"top":0,
+				"left":0,
+				"text_align":"left",
+				"font_size":24,
+				"font_family":"font_dev_messages",
+				"line_spacing":4,
+				"color": "color_message_system_warning"
+			},
+			"on_data_error_message_text":{
+				"text":{
+					"unit":"px",
+					"top":0,
+					"left":0,
+					"text_align":"right",
+					"font_size":30,
+					"font_family":"font_dev_messages",
+					"line_spacing":4,
+					"color": "color_message_system_warning"
+				}
+			},
+			"on_data_error_changed_message_text":{
+				"text":{
+					"unit":"px",
+					"top":0,
+					"left":0,
+					"text_align":"right",
+					"font_size":20,
+					"font_family":"font_dev_messages",
+					"line_spacing":4,
+					"color":"color_message_system_restore"
+				}
+			},
+			"on_data_update_message_text":{
+				"text":{
+					"unit":"px",
+					"top":0,
+					"left":0,
+					"text_align":"right",
+					"font_size":34,
+					"font_family":"font_dev_messages",
+					"line_spacing":4,
+					"color":"color_message_system_update"
+				}
+			},
+			"on_hint_channel_message_text":{
+				"text":{
+					"unit":"px",
+					"top":0,
+					"left":0,
+					"text_align":"center",
+					"font_size":68,
+					"font_family":"font_game_system",
+					"line_spacing":4,
+					"color":"color_message_hint"
+				}
+			},
+			"on_alert_channel_message_text":{
+				"text":{
+					"unit":"px",
+					"top":-40,
+					"left":0,
+					"text_align":"center",
+					"font_size":58,
+					"font_family":"font_game_system",
+					"line_spacing":4,
+					"color":"color_message_alert"
+				}
+			}
+		}
+	},
+	{
+		"layout_constants": {
+			"color_message_system_update":  [ 0, 0.8,0.2,1],
+			"color_message_system_restore": [ 0.8, 0.8,0,1],
+			"color_message_system_warning": [ 0.8, 0.2,0,1],
+			"color_message_hint":        	[0.9, 0.7,0.6, 0.6],
+			"color_message_alert":       	[ 1, 0.3,0.3,1],
+			"color_message_system":      	[ 0, 1,0.1,1],
+			"font_game_system":"Arial",
+			"font_dev_messages":"Verdana"
+		}
+	}
+]
