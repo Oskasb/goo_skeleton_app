@@ -13,7 +13,8 @@ define([
 	) {
 
 	var GooSetup = function() {
-
+		this.loadedEntities = {};
+		this.callbackIndex = {};
 	};
 
 	GooSetup.prototype.setupGooRunner = function() {
@@ -44,20 +45,55 @@ define([
 
 
 
-	GooSetup.prototype.bundleUpdated = function(srcKey, loaderData) {
-		console.log("Bundle Updated: ", srcKey, loaderData)
+
+	GooSetup.prototype.handleBundleUpdated = function(srcKey) {
+		console.log("BundleData updated", srcKey, this.loadedEntities);
+
+		if (!this.callbackIndex[srcKey]) {
+			this.callbackIndex[srcKey] = [];
+		}
+
+		for (var i = 0; i < this.callbackIndex[srcKey].length; i++) {
+			this.callbackIndex[srcKey][i](this.loadedEntities[srcKey].build())
+		}
 
 	};
 
-	GooSetup.prototype.initBundleData = function(srcUrl, downloadOk, fail) {
 
 
-		var assetUpdated = function(srcKey, data) {
-			downloadOk(srcKey, data);
-			console.log("Asset Updated: ", srcKey, data);
+
+	GooSetup.prototype.setupUpdateData = function(path, bundleMasterUrl, downloadOk, fail) {
+
+		var assetUpdated = function(entityName, data) {
+			this.loadedEntities[entityName] = data;
+			this.handleBundleUpdated(entityName);
+			downloadOk(entityName, data);
+		}.bind(this);
+		PipelineAPI.initBundleDownload(path, this.goo, bundleMasterUrl, assetUpdated, fail);
+	};
+
+
+	GooSetup.prototype.runGooPipeline = function(path, bundleMasterUrl) {
+		var bundlesReady = function(sourceKey, res) {
+			console.log("Bundle update OK", sourceKey, res);
 		};
 
-		PipelineAPI.initBundleDownload(this.goo, srcUrl, assetUpdated, fail);
+		var bundleFail = function(err) {
+			console.error("Bundle update FAIL:", err);
+		};
+
+		var bundles = function() {
+			this.setupUpdateData(path, bundleMasterUrl, bundlesReady, bundleFail);
+		}.bind(this);
+
+		setTimeout(function(){
+			bundles()
+		}, 100)
+
+	};
+
+	GooSetup.prototype.initBundleData = function(resourcePath, masterUrl) {
+		this.runGooPipeline(resourcePath, masterUrl);
 	};
 
 
